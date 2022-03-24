@@ -1,0 +1,36 @@
+.meal{
+     width: 300px;
+     height: 510px;
+     border: 1px solid #95a0a7;
+     border-radius: 8px;
+     position: relative;
+}
+.meal img{
+     width: 286px;
+     height: 286px;
+     border-radius: 8px;
+     margin: 7px;
+}
+.meal-info{
+     margin-left: 10px;
+}
+.meal-info p{
+     margin: 8px;
+}
+.buy-btn{
+     width: 100%;
+     background-color: #ffe0b3;
+     border: none;
+     border-radius: 0px 0px 8px 8px;
+     position: absolute;
+     bottom: 0;
+     cursor: pointer;
+}.buy-btn p{
+     font-size: 16px;
+     font-weight: bold;
+
+}
+.buy-btn:hover{
+     background-color: orange;
+     color: white;
+}
